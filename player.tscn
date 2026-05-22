@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://wkcam2kuolhf"]
+
+[ext_resource type="Texture2D" uid="uid://bqe5c25ntwhcc" path="res://pixil-frame-0 (1).png" id="1_4flbx"]
+
+[node name="Player" type="Node2D" unique_id=2074601806]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1046996311]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=1359867049]
+position = Vector2(18, 14)
+texture = ExtResource("1_4flbx")
